@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,300;0,400;0,700;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+  
+.Home{
+    margin: auto;
+    min-height: 100vh;
+    width: 100%;   
+    background: radial-gradient(#fff,#500303);
+       
+ }
+
+ .nav-bars{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+.text-cont{
+    font-size: large;
+    margin-top: 100px;
+    margin-left: 120px;
+    display: block;
+}
+.text-cont img{
+    z-index: 4;
+    float: right;
+    width: 300px;
+    margin-right: 70px;    
+    margin-left: 0;
+    
+}
+.image{
+    transform: translateY(-200px);
+}
+.text-cont h1 p{
+    margin: 15px 0;
+}
+.text-cont h1{
+    font-family: 'Pacifico',cursive;
+    color: orange;
+}
+.text-cont p{
+    color: white;
+    font-size: small;
+    margin-top: auto;
+}
+.btns{
+    margin-top: 20px;
+}
+.btns a{
+    color: aliceblue;
+    font-size: xx-small;
+    text-decoration: none;
+    padding: 2px 10px;
+    border: 1px solid white;
+    border-radius: 18px;
+    transition: .8s;
+
+}
+.btns a:hover{
+    color: white;
+    background: rgb(188, 139, 48);
+    transform: translateZ(50px);
+}
+
+ .logo a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .nav-bars ul{
+    display: block;
+ }
+ .nav-bars ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 15px;
+
+ }
+ .nav-bars ul li a{
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+    gap: 20px;
+    padding: 3px 4px;
+
+
+ }
+ .nav-bars a:hover{
+    border-radius: 15px;
+    background: orange;
+
+ }
+ .About-Us{
+    display: flex;
+    margin-top: 100px;
+ }
+ .About-Us h1{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+
+ }
+ 
+ .About-Us img{
+    width: 150px;
+    float: left;
+    height: 150px;
+    border-radius: 100px;
+ }
+
+ .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    margin-right: 40px;
+ }
+
+
