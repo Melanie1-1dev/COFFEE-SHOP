@@ -122,7 +122,17 @@
     margin-right: 40px;
  }
 
+ .text p{
+    margin-top: 30px;
+    font-size: small;
+ }
+
  
-
-
+.media{
+    margin-top: 30px;
+    color: #500303;
+}
+.media i{
+    margin: 15px;
+}
 
