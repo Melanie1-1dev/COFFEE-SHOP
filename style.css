@@ -212,10 +212,13 @@
     gap: 15px;
 
 }
-.contact{
+.contacts{
     margin-top: 70px;
     background: #f9f4f4;
     padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
 }
 .contact h1{
     text-align: center;
@@ -241,4 +244,49 @@
     font-size: xx-large;
 
 }
+
+.form{
+    border-radius: 5px;
+}
+.form input,textarea,button{
+    border:2px solid white;
+    background: white;
+}
+.form input{
+    margin: 2px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: x-small;
+    width: 300px;
+    height: 30px;
+}
+.form textarea{
+    width: 300px;
+    height: 70px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: x-small;
+}
+.form button{
+    margin: auto 50% 2% 40%;
+    background: #500303;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: all .9s;
+
+}
+
+button:hover{
+    background: orchid;
+}
+.medias:hover{
+    color: yellowgreen;
+}
+.form textarea:hover{
+    border: 1px solid yellowgreen;
+}
+.form input:hover{
+    border: 1px solid yellowgreen;
+}
+
 
