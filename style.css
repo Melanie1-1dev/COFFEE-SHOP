@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
 }
+.container{
+    margin: 0;
+}
   
 .Home{
     margin: auto;
@@ -144,5 +147,16 @@
 }
 .menu h1{
     text-align: center;
+    color: #fff;
+}
+.menu .images{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 200px;
+    justify-content: space-around;
+    margin-left: 300px;
+    gap: 70px;
 }
 
