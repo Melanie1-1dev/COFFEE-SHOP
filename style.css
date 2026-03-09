@@ -179,6 +179,10 @@
     width: 500px;
     height: 200px;
     gap: 60px;
+    border-radius: 39px;
 
+}
+.images img{
+    border-radius: 100%;
 }
 
