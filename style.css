@@ -156,7 +156,29 @@
     width: 500px;
     height: 200px;
     justify-content: space-around;
-    margin-left: 300px;
+    margin-left: 180px;
     gap: 70px;
+}
+
+.testimonial{
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.testimonial h1{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+.testimonial .images{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-between;
+    width: 500px;
+    height: 200px;
+    gap: 60px;
+
 }
 
