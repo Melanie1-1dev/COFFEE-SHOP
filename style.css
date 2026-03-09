@@ -136,3 +136,13 @@
     margin: 15px;
 }
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background: #000;
+}
+.menu h1{
+    text-align: center;
+}
+
