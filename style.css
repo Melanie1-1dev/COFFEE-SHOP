@@ -214,9 +214,13 @@
 }
 .contact{
     margin-top: 70px;
+    background: #ece4e4;
 }
-.contacth1{
+.contact h1{
     text-align: center;
+}
+.footer{
+    align-items: center;
 }
 
 
