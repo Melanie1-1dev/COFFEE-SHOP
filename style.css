@@ -355,6 +355,26 @@ img{
     
 }
 
+.images-1 h3,p{
+    color: #fff;
+}
+
+.images-1{
+    text-align: center;
+}
+
+.images-1 img{
+    width: 120px;
+}
+
+.images-1 h3{
+    margin-top: 15px;
+}
+.images-1 p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 
 
 
